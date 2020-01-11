@@ -1,0 +1,39 @@
+.yol{
+    height: 200px;
+    background-color: gray;
+    border: solid 3px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+.xet{
+    border: 2px solid white;
+    width: 60px;
+    height: 1px;
+    border-radius: 10px;
+    background-color: white;
+}
+.car{
+    font-size: 200px;
+    position: absolute;
+    color: rgb(185, 23, 23);
+    animation-name: caar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes caar{
+    0%{
+    left: 0;
+}
+100%{
+    left: 84.3%;
+}
+}
+body{
+padding-top: 20%;
+background-color: turquoise
+}
